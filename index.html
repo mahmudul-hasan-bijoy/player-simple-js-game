@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="EN-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Player - A Sample Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- GOOGLE FONTS -->
+    
+    <!-- Vendor CSS FILES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Normalize CSS 3 -->
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#fafafa">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="main-title">
+        <h1>Let's Play A Game</h1>  
+      </div>
+      
+      <div class="game-scores">
+        <h2 class="scores">
+        <span id="p1Score">0</span>
+        VS
+        <span id="p2Score">0</span>
+        </h2>
+      </div>
+      
+      <div class="winning-score">
+        <p>Winning Score: <input type="text" id="inputScore"> = <span>0</span></p>
+      </div>
+      
+      <div class="game-buttons">
+        <button id="p1Btn">Player 1</button>
+        <button id="resetBtn">Reset</button>
+        <button id="p2Btn">Player 2</button>
+      </div>
+      
+    </div> <!-- container -->
+      
+      <!-- Vendor JavaScript Files -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.bundle.min.js" integrity="sha512-mULnawDVcCnsk9a4aG1QLZZ6rcce/jSzEGqUkeOLy0b6q0+T6syHrxlsAGH7ZVoqC93Pd0lBqd6WguPWih7VHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- Bootstrap -->
+      <script src="assets/js/main.js"></script> <!-- Main Js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- Modenizer -->
+    </body>
+  </html>
