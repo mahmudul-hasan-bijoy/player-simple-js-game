@@ -126,7 +126,9 @@ input:focus {
 	background-color: #CF2A40 !important;
 	transition: 0.5s all;
 }
-
+#p1Btn:disabled, #p2Btn:disabled {
+	background-color: #dddddd !important;
+}
 @media screen and (max-width: 778px) {
 	.game-buttons, .scores {
 		column-gap: 15px;
